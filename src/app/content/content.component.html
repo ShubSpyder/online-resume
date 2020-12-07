@@ -1,0 +1,8 @@
+<section id="content">
+  <div class="timeline-container" *ngFor="let sub of data">
+    <div id="title-container">
+      <h2>{{ sub.title }}</h2>
+    </div>
+    <app-timeline [data]="sub"></app-timeline>
+  </div>
+</section>

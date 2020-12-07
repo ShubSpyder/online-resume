@@ -1,0 +1,23 @@
+.timline-container {
+  text-align: center;
+  align-items: center;
+}
+#title-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+
+@media (max-width: 600px) {
+  #title-container {
+    display: block;
+    padding-left: 1.2rem;
+  }
+}
