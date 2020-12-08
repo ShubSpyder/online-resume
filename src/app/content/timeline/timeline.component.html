@@ -1,9 +1,10 @@
 <div id="timeline">
   <ul>
-    <h2>{{tlData.title}}</h2>
+    <h2>{{ tlData.title }}</h2>
     <li *ngFor="let subData of tlData">
       <div>
         <h3>{{ subData.title }}</h3>
+        <p class="date">{{ subData.date }}</p>
         <p>{{ subData.description }}</p>
       </div>
     </li>

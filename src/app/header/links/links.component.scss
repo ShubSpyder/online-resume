@@ -1,0 +1,55 @@
+.links-container {
+  width: 100%;
+  padding: 0 0 1.2rem;
+  margin-bottom: 1rem;
+
+  .links {
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .mail-link {
+      text-decoration: none;
+      font-size: 1.2rem;
+      color: #b3ffe6;
+      padding-right: 2rem;
+      .fa-envelope,
+      .fa-link {
+        color: #f4f4f4;
+        font-size: 1.1rem;
+        margin-right: 6px;
+      }
+      .fa-link {
+        font-size: 0.9rem;
+      }
+    }
+    .mail-link:hover {
+      color: #66ff99;
+    }
+    .fa-github {
+      color: #f4f4f4;
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .links-container {
+    padding: 1.4rem 0 0.8rem;
+    display: block;
+    margin-bottom: 0;
+    .links {
+      float: none;
+      text-align: center;
+      .mail-link {
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .fa-link {
+          padding: 0 4px;
+        }
+      }
+    }
+  }
+}
