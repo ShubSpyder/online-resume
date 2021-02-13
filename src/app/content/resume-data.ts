@@ -35,7 +35,7 @@ export const resData = [
     content: [
       {
         title: 'Figma (Basics)',
-        description: `U I and G raphics D esigning tool`,
+        description: `UI and Graphics Designing tool`,
       },
       { title: 'Git', description: `Version Control System` },
       {
@@ -53,6 +53,11 @@ export const resData = [
         date: '2019-2020',
         description: `Worked as an angular developer in this
         blockchain based startup company.`,
+      },
+      {
+        title: 'Shukul Infotech',
+        date: '2020-2021',
+        description: `Currently working as a Angular Developer.`,
       },
     ],
   },
