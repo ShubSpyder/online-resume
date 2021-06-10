@@ -1,5 +1,3 @@
-import { Content } from '@angular/compiler/src/render3/r3_ast';
-
 export const resData = [
   {
     title: 'Education',
@@ -24,10 +22,12 @@ export const resData = [
   {
     title: 'Technical Skills',
     content: [
-      { title: 'HTML & CSS' },
+      { title: 'HTML5 & CSS3' },
       { title: 'Javascript' },
+      { title: 'Typescript' },
       { title: 'Angular (Frontend Framework)' },
       { title: 'Node.JS (Basics)' },
+      { title: 'React.JS (Basics)' },
     ],
   },
   {
@@ -43,6 +43,7 @@ export const resData = [
         description: `Linux(Ubuntu, Linux Mint, Arch, Debian),
         Windows, Mac OS`,
       },
+      { title: 'SVN (Basics)', description: `Version Control System` },
     ],
   },
   {
@@ -50,13 +51,13 @@ export const resData = [
     content: [
       {
         title: 'Cateina Technologies',
-        date: '2019-2020',
+        date: '2019 - 2020',
         description: `Worked as an angular developer in this
         blockchain based startup company.`,
       },
       {
         title: 'Shukul Infotech',
-        date: '2020-2021',
+        date: '2020 - Currently Working',
         description: `Currently working as a Angular Developer.`,
       },
     ],

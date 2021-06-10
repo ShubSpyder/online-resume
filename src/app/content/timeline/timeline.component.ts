@@ -12,8 +12,6 @@ export class TimelineComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    console.log(this.data);
     this.tlData = this.data.content;
-    console.log(this.tlData);
   }
 }
