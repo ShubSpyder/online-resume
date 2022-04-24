@@ -51,14 +51,19 @@ export const resData = [
     content: [
       {
         title: 'Cateina Technologies',
-        date: '2019 - 2020',
+        date: 'Oct 2019 - Oct 2020',
         description: `Worked as an angular developer in this
         blockchain based startup company.`,
       },
       {
         title: 'Shukul Infotech',
-        date: '2020 - Currently Working',
-        description: `Currently working as a Angular Developer.`,
+        date: 'Dec 2020 - June 2021',
+        description: `Worked as an Angular Developer.`,
+      },
+      {
+        title: 'Rupeeseed Technology Ventures',
+        date: 'July 2021 - Currently Working',
+        description: `Currently Working as an Angular Developer.`,
       },
     ],
   },
