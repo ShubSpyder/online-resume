@@ -95,6 +95,17 @@ export const resData = [
         can send notification to phone. This was
         my college Final year project`,
       },
+      {
+        title: 'Itskeedi',
+        description: `An ecommerce/ window shoping app
+        thats allows users to view products
+        available in nearby registered shops`,
+      },
+
+      {
+        title: 'MStock (Mirae Asset)',
+        description: `A Stock broking platform. In which users can buy, sell, analyze and hold stocks, currencies & virtual commodities.`,
+      },
     ],
   },
   {
